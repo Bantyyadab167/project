@@ -52,6 +52,7 @@ public class BettingPage extends AppCompatActivity {
         setContentView(R.layout.activity_betting_page);
 
 
+       // I want to send this "gameid" to fragment
         String gameid = getIntent().getStringExtra(GAME_ID);
         String banner = getIntent().getStringExtra(BANNER);
 
