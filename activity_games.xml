@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Games">
+
+    <TextView
+        android:id="@+id/allgames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/pro"
+        android:text="All Games"
+        android:textColor="#4285f4"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/gamesrecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/allgames" />
+
+    <!--    <ScrollView-->
+<!--        android:id="@+id/scrollView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:id="@+id/pubgm"-->
+<!--                android:layout_width="347dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/pubgm">-->
+<!--                app:shapeAppearanceOverlay="@style/roundimgview"></com.google.android.material.imageview.ShapeableImageView>-->
+
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:id="@+id/ff"-->
+<!--                android:layout_width="347dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/freefire"-->
+<!--                app:shapeAppearanceOverlay="@style/roundimgview"></com.google.android.material.imageview.ShapeableImageView>-->
+
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:id="@+id/codm"-->
+<!--                android:layout_width="347dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/codm"-->
+<!--                app:shapeAppearanceOverlay="@style/roundimgview"></com.google.android.material.imageview.ShapeableImageView>-->
+
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:id="@+id/fortnite"-->
+<!--                android:layout_width="347dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/valorant"-->
+<!--                app:shapeAppearanceOverlay="@style/roundimgview"></com.google.android.material.imageview.ShapeableImageView>-->
+
+
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:id="@+id/valorant"-->
+<!--                android:layout_width="347dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/fortnite"-->
+<!--                app:shapeAppearanceOverlay="@style/roundimgview"></com.google.android.material.imageview.ShapeableImageView>-->
+
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:id="@+id/dota2"-->
+<!--                android:layout_width="347dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/dota2"-->
+<!--                app:shapeAppearanceOverlay="@style/roundimgview"></com.google.android.material.imageview.ShapeableImageView>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </ScrollView>-->
+
+</LinearLayout>
